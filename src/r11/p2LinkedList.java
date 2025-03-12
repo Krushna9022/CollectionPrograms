@@ -5,25 +5,25 @@ import java.util.List;
 
 public class p2LinkedList {
     public static void main(String[] args) {
-      List<String> str=new LinkedList<>();
+      List str=new LinkedList();
 
         str.add("krushna");
         str.add("mahes");
         str.add("kishor");
 
-        for(String s:str)
+        for(Object s:str)
         {
             System.out.println(s);
         }
 
        //int index=str.indexOf("krushna");
-        boolean f=str.remove("krpushna");
+       /* boolean f=str.remove("krpushna");
         if(f)
         {
             System.out.println("removed from the LIst");
         }
         else {
             System.out.println("not Present  from the LIst");
-        }
+        }*/
     }
 }
