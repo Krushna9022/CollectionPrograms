@@ -9,7 +9,7 @@ public class CommonBtwTwoSet {
         Set<String> str2=new HashSet<>();
         str1.add("Krushna");
         str1.add("mahesh");
-        str1.add("ronhna");
+        str1.add("rohna");
         str1.add("Rahul");
         str1.add("Kishor");
 

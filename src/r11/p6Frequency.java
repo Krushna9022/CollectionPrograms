@@ -4,7 +4,7 @@ import java.util.*;
 
 public class p6Frequency {
     public static void main(String[] args) {
-        int a[]=new int[5];
+        int a[]=new int[5];   //1 2 3 4 1 1
         Scanner sc=new Scanner(System.in);
         for(int i=0;i<a.length;i++)
         {
@@ -22,9 +22,9 @@ public class p6Frequency {
             ++count;
             frequency.put(a[i],count);
         }
-        Set<Map.Entry<Integer,Integer>> entrySet=frequency.entrySet();
-        for(Map.Entry<Integer,Integer> m:entrySet)
-            System.out.println(m.getKey()+"\t===>\t"+m.getValue());
+       // Set<Map.Entry<Integer,Integer>> entrySet=frequency.entrySet();
+        for(Map.Entry<Integer,Integer> entry:frequency.entrySet())
+            System.out.println(entry.getKey()+"\t===>\t"+entry.getValue());
         {
 
         }
