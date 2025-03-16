@@ -38,13 +38,13 @@ public class StackLibraryMgmgt {
 
                 case 4:
                     System.out.println("displaying the all the books in stack");
-                    ListIterator<String> i= books.listIterator(books.size());
-                    while(i.hasPrevious())
-                    {
-                        String s= i.previous();
-                        System.out.print(s+" \t");
-                    }
-                    System.out.println();
+                   for(ListIterator<String> i= books.listIterator(books.size());i.hasPrevious();)
+                   {
+                       String item=i.previous();
+                       System.out.print(item+"\t");
+                   }
+                case 5:
+                    flag=false;
             }
 
         } while (flag);
